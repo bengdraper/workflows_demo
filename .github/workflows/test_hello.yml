@@ -6,8 +6,8 @@ on: push
 jobs:
   hello-test-python-versions:
     strategy:
-    matrix:
-      python-versions: ['3.7', '3.8']
+      matrix:
+        python-versions: ['3.7', '3.8']
     runs-on: ubuntu-22.04
     steps:
 
